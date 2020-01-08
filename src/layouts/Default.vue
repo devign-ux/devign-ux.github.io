@@ -1,15 +1,7 @@
 <template>
-  <div class="layout">
-    <header class="header">
-      <strong>
-        <g-link to="/">{{ $static.metadata.siteName }}</g-link>
-      </strong>
-      <nav class="nav">
-        <g-link class="nav__link" to="/">Home</g-link>
-        <g-link class="nav__link" to="/about/">About</g-link>
-      </nav>
-    </header>
-    <slot/>
+  <div class="container px-4 mx-auto">
+    <slot />
+    <link rel="stylesheet" href="https://use.typekit.net/les1qnk.css" />
   </div>
 </template>
 
@@ -23,28 +15,64 @@ query {
 
 <style>
 body {
-  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-  margin:0;
-  padding:0;
-  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  @apply text-coal;
+  @apply bg-white;
 }
 
-.layout {
-  max-width: 760px;
-  margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
+html {
+  font-size: 16px;
 }
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
-  height: 80px;
+@screen xl {
+  html {
+    font-size: 18px;
+  }
 }
 
-.nav__link {
-  margin-left: 20px;
+@font-face {
+  font-family: 'Metropolis';
+  src: url('https://github.com/chrismsimpson/Metropolis/raw/master/Fonts/Webfonts/EOT/Metropolis-ExtraBold.eot');
+  src: url('https://github.com/chrismsimpson/Metropolis/raw/master/Fonts/Webfonts/WOFF/Metropolis-ExtraBold.woff')
+      format('woff'),
+    url('https://github.com/chrismsimpson/Metropolis/raw/master/Fonts/Webfonts/WOFF2/Metropolis-ExtraBold.woff2')
+      format('woff2'),
+    url('https://github.com/chrismsimpson/Metropolis/raw/master/Fonts/OpenType/Metropolis-ExtraBold.otf')
+      format('opentype');
+}
+
+h1,
+h2 {
+  @apply font-display;
+}
+
+p {
+  @apply font-body;
+  @apply text-coal;
+  @apply text-base;
+  @apply leading-normal;
+}
+
+h1 {
+  @apply text-xl;
+  @apply text-coal;
+  @apply font-extrabold;
+}
+
+h2 {
+  @apply text-lg;
+  @apply text-magenta;
+  @apply font-medium;
+}
+
+@screen lg {
+  h1 {
+    @apply text-2xl;
+  }
+
+  h2 {
+    @apply text-xl;
+  }
 }
 </style>
