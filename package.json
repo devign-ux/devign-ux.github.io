@@ -1,0 +1,30 @@
+{
+  "name": "devign-web",
+  "version": "1.0.0",
+  "description": "The one-pager for the Devign VR project.",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore"
+  },
+  "dependencies": {
+    "gridsome": "^0.7.0"
+  },
+  "devDependencies": {
+    "@gridsome/cli": "^0.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devign-ux/devign-ux.github.io.git"
+  },
+  "keywords": [
+    "onepager"
+  ],
+  "author": "sven-zo, goef",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/devign-ux/devign-ux.github.io/issues"
+  },
+  "homepage": "https://github.com/devign-ux/devign-ux.github.io#readme"
+}
