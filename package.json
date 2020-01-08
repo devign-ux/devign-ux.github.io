@@ -6,13 +6,15 @@
   "scripts": {
     "build": "gridsome build",
     "develop": "gridsome develop",
-    "explore": "gridsome explore"
+    "explore": "gridsome explore",
+    "initialise-tailwind": "./node_modules/.bin/tailwind init"
   },
   "dependencies": {
     "gridsome": "^0.7.0"
   },
   "devDependencies": {
-    "@gridsome/cli": "^0.3.1"
+    "@gridsome/cli": "^0.3.1",
+    "gridsome-plugin-tailwindcss": "^2.2.30"
   },
   "repository": {
     "type": "git",
