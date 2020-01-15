@@ -1,5 +1,5 @@
 <template>
-  <div class="container px-4 mx-auto">
+  <div class="mx-auto">
     <slot />
     <link rel="stylesheet" href="https://use.typekit.net/les1qnk.css" />
   </div>
