@@ -1,5 +1,5 @@
 <template>
-  <header class="header h-16 flex flex-row">
+  <header class="header container mx-auto h-16 flex flex-row">
     <div class="flex content-center flex-auto w-3/16 h-full">
       <g-image src="~/images/devign-wordmark.svg" width="200" />
     </div>
