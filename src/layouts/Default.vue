@@ -19,6 +19,7 @@ body {
   padding: 0;
   @apply text-coal;
   @apply bg-white;
+  @apply font-body;
 }
 
 html {
@@ -33,13 +34,10 @@ html {
 
 @font-face {
   font-family: 'Metropolis';
-  src: url('https://github.com/chrismsimpson/Metropolis/raw/master/Fonts/Webfonts/EOT/Metropolis-ExtraBold.eot');
-  src: url('https://github.com/chrismsimpson/Metropolis/raw/master/Fonts/Webfonts/WOFF/Metropolis-ExtraBold.woff')
-      format('woff'),
-    url('https://github.com/chrismsimpson/Metropolis/raw/master/Fonts/Webfonts/WOFF2/Metropolis-ExtraBold.woff2')
-      format('woff2'),
-    url('https://github.com/chrismsimpson/Metropolis/raw/master/Fonts/OpenType/Metropolis-ExtraBold.otf')
-      format('opentype');
+  src: url('/fonts/Metropolis-ExtraBold.eot');
+  src: url('/fonts/Metropolis-ExtraBold.woff') format('woff'),
+    url('/fonts/Metropolis-ExtraBold.woff2') format('woff2'),
+    url('/fonts/Metropolis-ExtraBold.otf') format('opentype');
 }
 
 h1,
@@ -52,6 +50,11 @@ p {
   @apply text-coal;
   @apply text-base;
   @apply leading-normal;
+}
+
+a {
+  @apply text-magenta;
+  @apply underline;
 }
 
 h1 {
