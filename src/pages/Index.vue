@@ -3,6 +3,10 @@
     <Header />
     <Hero />
     <Keywords />
+      <Belang />
+      <Doelen />
+      <Realiseren />
+      <Probleemstelling />
     <Copy>
       <h1>Stukje een</h1>
       <p>
@@ -42,6 +46,11 @@ import SwitchableArea from '~/components/SwitchableArea.vue'
 import Header from '~/components/Header.vue'
 import Hero from '~/components/Hero.vue'
 import Keywords from '~/components/Keywords.vue'
+import Belang from '~/components/Belang.vue'
+import Doelen from '~/components/Doelen.vue'
+import Realiseren from '~/components/Realiseren.vue'
+import Probleemstelling from '~/components/Probleemstelling.vue'
+
 
 export default {
   components: {
@@ -49,7 +58,11 @@ export default {
     SwitchableArea,
     Header,
     Hero,
-    Keywords
+    Keywords,
+    Belang,
+    Doelen,
+    Realiseren,
+    Probleemstelling
   }
 }
 </script>

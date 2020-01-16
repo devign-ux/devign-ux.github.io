@@ -6,7 +6,8 @@ module.exports = {
       coal: '#1E1E1C',
       grey: '#D8D8D8',
       white: '#FFFFFF',
-      'magenta-light': 'rgb(239, 113, 179)'
+      'magenta-light': 'rgb(239, 113, 179)',
+      'grey-light': '#F5F5F5'
     },
     fontFamily: {
       body: [
