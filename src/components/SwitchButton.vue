@@ -40,6 +40,10 @@
 .switch-button .switch-button__more-info {
   bottom: 1rem;
 }
+
+.switch-button {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
 </style>
 
 <script>
