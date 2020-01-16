@@ -39,6 +39,9 @@ export default {
     Doelen,
     Realiseren,
     Probleemstelling
+  },
+  metaInfo: {
+    title: 'VR'
   }
 }
 </script>
