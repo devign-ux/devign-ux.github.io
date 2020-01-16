@@ -6,6 +6,7 @@
     </div>
     <Hoofdstuk :number="1" title="Implementatie fase" />
     <UserStoryMap />
+    <DemoDay />
   </div>
 </template>
 
@@ -13,12 +14,14 @@
 import Streepje from '~/components/Streepje.vue'
 import Hoofdstuk from '~/components/Hoofdstuk.vue'
 import UserStoryMap from '~/components/UserStoryMap.vue'
+import DemoDay from '~/components/DemoDay.vue'
 
 export default {
   components: {
     Streepje,
     Hoofdstuk,
-    UserStoryMap
+    UserStoryMap,
+    DemoDay
   }
 }
 </script>
