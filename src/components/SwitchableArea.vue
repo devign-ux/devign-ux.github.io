@@ -1,9 +1,9 @@
 <template>
   <div>
-    <div>
+    <div class="h-64 flex flex-col justify-center">
       <h1 class="text-center">Hoe wij te werk gaan</h1>
     </div>
-    <div>
+    <div class="mb-32">
       <div class="flex mx-auto justify-center">
         <a href="#" @click="setArea('PROCES')">
           <SwitchButton :isActive="proces" title="Proces" emoji="rocket"></SwitchButton>
@@ -16,9 +16,15 @@
         </a>
       </div>
     </div>
-    <Proces v-if="proces"></Proces>
-    <Prototypes v-else-if="prototypes"></Prototypes>
-    <Reflectie v-else-if="reflectie"></Reflectie>
+    <Proces v-if="proces">
+      <slot></slot>
+    </Proces>
+    <Prototypes v-else-if="prototypes">
+      <slot></slot>
+    </Prototypes>
+    <Reflectie v-else-if="reflectie">
+      <slot></slot>
+    </Reflectie>
   </div>
 </template>
 
