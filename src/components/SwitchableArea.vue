@@ -1,17 +1,33 @@
 <template>
   <div>
     <div>
-      <div @click="setArea('PROCES')">BUTTON 1 Proces</div>
-      <div @click="setArea('PROTOTYPE')">BUTTON 2 Prototypes</div>
-      <div @click="setArea('REFLECTIE')">BUTTON 3 Reflectie</div>
+      <h1 class="text-center">Hoe wij te werk gaan</h1>
     </div>
-    <div v-if="proces">PROCES</div>
-    <div v-else-if="prototypes">PROTOTYPES</div>
-    <div v-else-if="reflectie">REFLECTIE</div>
+    <div>
+      <div class="flex mx-auto justify-center">
+        <a href="#" @click="setArea('PROCES')">
+          <SwitchButton :isActive="proces" title="Proces" emoji="rocket"></SwitchButton>
+        </a>
+        <a href="#" @click="setArea('PROTOTYPE')">
+          <SwitchButton :isActive="prototypes" title="Prototype" emoji="computer"></SwitchButton>
+        </a>
+        <a href="#" @click="setArea('REFLECTIE')">
+          <SwitchButton :isActive="reflectie" title="Reflectie" emoji="eye"></SwitchButton>
+        </a>
+      </div>
+    </div>
+    <Proces v-if="proces"></Proces>
+    <Prototypes v-else-if="prototypes"></Prototypes>
+    <Reflectie v-else-if="reflectie"></Reflectie>
   </div>
 </template>
 
 <script>
+import SwitchButton from '~/components/SwitchButton.vue'
+import Proces from '~/components/Proces.vue'
+import Prototypes from '~/components/Prototypes.vue'
+import Reflectie from '~/components/Reflectie.vue'
+
 export default {
   data() {
     return {
@@ -35,6 +51,12 @@ export default {
         this.reflectie = true
       }
     }
+  },
+  components: {
+    SwitchButton,
+    Proces,
+    Prototypes,
+    Reflectie
   }
 }
 </script>

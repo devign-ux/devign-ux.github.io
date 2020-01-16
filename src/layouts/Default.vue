@@ -52,7 +52,7 @@ p {
   @apply leading-normal;
 }
 
-a {
+.copy a {
   @apply text-magenta;
   @apply underline;
 }
