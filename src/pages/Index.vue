@@ -7,6 +7,7 @@
       <Doelen />
       <Realiseren />
       <Probleemstelling />
+      <Inzichten/>
     <Copy>
       <h1>Stukje een</h1>
       <p>
@@ -50,7 +51,7 @@ import Belang from '~/components/Belang.vue'
 import Doelen from '~/components/Doelen.vue'
 import Realiseren from '~/components/Realiseren.vue'
 import Probleemstelling from '~/components/Probleemstelling.vue'
-
+import Inzichten from '~/components/Inzichten.vue'
 
 export default {
   components: {
@@ -62,7 +63,8 @@ export default {
     Belang,
     Doelen,
     Realiseren,
-    Probleemstelling
+    Probleemstelling,
+    Inzichten
   }
 }
 </script>
