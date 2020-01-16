@@ -3,15 +3,15 @@
     <div class="cards__block bg-grey-light">
       <Box>
         <div class="flex justify-around">
-          <div class="cards__card bg-white rounded p-4 mr-4">
+          <div class="cards__card bg-white rounded p-8 mr-4">
             <h2 class="text-coal pb-4">Deskresearch</h2>
             <p>Er is onderzoek gedaan naar de merkbeleving, de concurrentie, Technische specificaties van de camera, de doelgroep en de toepassing van design binnen VR.</p>
           </div>
-          <div class="cards__card bg-white rounded p-4 mr-4">
+          <div class="cards__card bg-white rounded p-8 mr-4">
             <h2 class="text-coal pb-4">Fieldresearch</h2>
             <p>Er zijn meerdere soorten onderzoeksmethoden toegepast, zoals observaties, interviews met de doelgroep, de opdrachtgever, superuser, customer journeys, persona’s. Ook zijn er verschillende instellingen van de camera getest.</p>
           </div>
-          <div class="cards__card bg-white rounded p-4">
+          <div class="cards__card bg-white rounded p-8">
             <h2 class="text-coal pb-4">User testing</h2>
             <p>
               Er zijn op meerdere momenten binnen het proces user testen en usability testen afgenomen met testpersonen buiten en binnen de doelgroep.
