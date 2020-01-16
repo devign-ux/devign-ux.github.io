@@ -1,7 +1,7 @@
 <template>
   <div class="h-40 flex flex-col justify-center">
     <Streepje />
-    <h1 class="text-center">Prototype</h1>
+    <h1 class="text-center" id="prototype">Prototype</h1>
   </div>
 </template>
 
