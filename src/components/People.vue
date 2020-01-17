@@ -8,7 +8,9 @@
       <g-image class="people-box" src="~/images/3-gabrielle.png"></g-image>
       <g-image class="people-box" src="~/images/4-geoffrey.png"></g-image>
       <g-image class="people-box" src="~/images/5-sven.png"></g-image>
-      <g-image class="people-box" src="~/images/6-meerweten.png"></g-image>
+      <a href="#contact">
+        <g-image class="people-box" src="~/images/6-meerweten.png"></g-image>
+      </a>
     </Box>
     <h1 class="pt-24 pb-16 text-center">In samenwerking met</h1>
     <p class="text-center pb-16">- SyncVR</p>
