@@ -8,6 +8,7 @@
     <UserStoryMap />
     <DemoDay />
     <Eindconcept />
+    <Testresultaten />
   </div>
 </template>
 
@@ -17,6 +18,7 @@ import Hoofdstuk from '~/components/Hoofdstuk.vue'
 import UserStoryMap from '~/components/UserStoryMap.vue'
 import DemoDay from '~/components/DemoDay.vue'
 import Eindconcept from '~/components/Eindconcept.vue'
+import Testresultaten from '~/components/Testresultaten.vue'
 
 export default {
   components: {
@@ -24,7 +26,8 @@ export default {
     Hoofdstuk,
     UserStoryMap,
     DemoDay,
-    Eindconcept
+    Eindconcept,
+    Testresultaten
   }
 }
 </script>
