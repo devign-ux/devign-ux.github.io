@@ -6,6 +6,9 @@
     </div>
     <Hoofdstuk :number="1" title="Discovery fase" />
     <MethodCards />
+    <Inzichten />
+    <Quote />
+    <Stakeholders />
     <Hoofdstuk :number="2" title="Ideation fase" />
     <Brainstormen />
     <ConceptCards />
@@ -18,6 +21,9 @@ import Hoofdstuk from '~/components/Hoofdstuk.vue'
 import MethodCards from '~/components/MethodCards.vue'
 import Brainstormen from '~/components/Brainstormen.vue'
 import ConceptCards from '~/components/ConceptCards.vue'
+import Inzichten from '~/components/Inzichten.vue'
+import Quote from '~/components/Quote.vue'
+import Stakeholders from '~/components/Stakeholders.vue'
 
 export default {
   components: {
@@ -25,7 +31,10 @@ export default {
     Hoofdstuk,
     MethodCards,
     Brainstormen,
-    ConceptCards
+    ConceptCards,
+    Inzichten,
+    Quote,
+    Stakeholders
   }
 }
 </script>

@@ -1,5 +1,5 @@
 <template>
-  <Box class="flex mb-32 flex-row-reverse	">
+  <Box class="flex mb-32 flex-row-reverse my-32">
     <div class="w-6/12">
       <g-image src="~/images/SHMap.png" width="529" height="355"></g-image>
     </div>

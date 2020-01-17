@@ -8,7 +8,7 @@ module.exports = {
       white: '#FFFFFF',
       'magenta-light': 'rgb(239, 113, 179)',
       'grey-light': '#F5F5F5',
-      blauwNeef : '2553C8'
+      blauwNeef: '#2553C8'
     },
     fontFamily: {
       body: [

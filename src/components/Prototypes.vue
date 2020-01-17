@@ -8,7 +8,10 @@
     <UserStoryMap />
     <DemoDay />
     <Eindconcept />
+    <Guidelines />
+    <EindPrototype />
     <Testresultaten />
+    <Quote2 />
   </div>
 </template>
 
@@ -19,6 +22,9 @@ import UserStoryMap from '~/components/UserStoryMap.vue'
 import DemoDay from '~/components/DemoDay.vue'
 import Eindconcept from '~/components/Eindconcept.vue'
 import Testresultaten from '~/components/Testresultaten.vue'
+import Guidelines from '~/components/Guidelines.vue'
+import EindPrototype from '~/components/EindPrototype.vue'
+import Quote2 from '~/components/Quote2.vue'
 
 export default {
   components: {
@@ -27,7 +33,10 @@ export default {
     UserStoryMap,
     DemoDay,
     Eindconcept,
-    Testresultaten
+    Testresultaten,
+    Guidelines,
+    EindPrototype,
+    Quote2
   }
 }
 </script>
