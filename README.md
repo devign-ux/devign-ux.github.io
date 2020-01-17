@@ -1,3 +1,10 @@
-Add static files here. Files in this directory will be copied directly to `dist` folder during build. For example, /static/robots.txt will be located at https://yoursite.com/robots.txt.
+# Source code is in the `source-code` folder
 
-This file should be deleted.
+# Editor
+
+Make sure your editor understands `.editorconfig` and `.prettierrc`.
+
+# How to use
+
+1. `npm i`
+2. `npm run develop`
