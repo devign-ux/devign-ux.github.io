@@ -6,6 +6,7 @@
 
 module.exports = {
   siteName: 'Devign',
+  siteUrl: 'https://devign-ux.github.io/',
   plugins: [
     {
       use: 'gridsome-plugin-tailwindcss'
