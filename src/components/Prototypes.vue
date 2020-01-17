@@ -5,17 +5,29 @@
       <h1 class="text-center" id="prototype">Prototype</h1>
     </div>
     <Hoofdstuk :number="1" title="Implementatie fase" />
+    <UserStoryMap />
+    <DemoDay />
+    <Eindconcept />
+    <Testresultaten />
   </div>
 </template>
 
 <script>
 import Streepje from '~/components/Streepje.vue'
 import Hoofdstuk from '~/components/Hoofdstuk.vue'
+import UserStoryMap from '~/components/UserStoryMap.vue'
+import DemoDay from '~/components/DemoDay.vue'
+import Eindconcept from '~/components/Eindconcept.vue'
+import Testresultaten from '~/components/Testresultaten.vue'
 
 export default {
   components: {
     Streepje,
-    Hoofdstuk
+    Hoofdstuk,
+    UserStoryMap,
+    DemoDay,
+    Eindconcept,
+    Testresultaten
   }
 }
 </script>

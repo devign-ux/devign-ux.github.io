@@ -5,13 +5,13 @@
     </div>
     <div class="flex content-center header--links flex-initial self-end h-full">
       <span>
-        <a>Proces</a>
+        <a href="#work">Proces</a>
       </span>
       <span>
-        <a>Prototype</a>
+        <a href="#work">Prototype</a>
       </span>
       <span>
-        <a>Reflectie</a>
+        <a href="#work">Reflectie</a>
       </span>
     </div>
     <div class="w-2/16"></div>

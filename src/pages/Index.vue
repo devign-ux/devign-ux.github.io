@@ -9,8 +9,8 @@
     <Realiseren />
     <Probleemstelling />
     <SwitchableArea />
-    <Stakeholders />
-    <Quote2 />
+    <People />
+    <Footer />
   </Layout>
 </template>
 
@@ -31,10 +31,8 @@ import Doelen from '~/components/Doelen.vue'
 import Realiseren from '~/components/Realiseren.vue'
 import Probleemstelling from '~/components/Probleemstelling.vue'
 import Inzichten from '~/components/Inzichten.vue'
-import Quote from '~/components/Quote.vue'
-import Stakeholders from '~/components/Stakeholders.vue'
-import Quote2 from '~/components/Quote2.vue'
-
+import People from '~/components/People.vue'
+import Footer from '~/components/Footer.vue'
 
 export default {
   components: {
@@ -47,9 +45,8 @@ export default {
     Doelen,
     Realiseren,
     Probleemstelling,
-    Quote,
-    Stakeholders,
-    Quote2
+    People,
+    Footer
   },
   metaInfo: {
     title: 'VR'
