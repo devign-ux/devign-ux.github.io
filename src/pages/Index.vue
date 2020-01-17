@@ -8,6 +8,7 @@
     <Realiseren />
     <Probleemstelling />
     <SwitchableArea />
+    <People />
   </Layout>
 </template>
 
@@ -28,6 +29,7 @@ import Doelen from '~/components/Doelen.vue'
 import Realiseren from '~/components/Realiseren.vue'
 import Probleemstelling from '~/components/Probleemstelling.vue'
 import Inzichten from '~/components/Inzichten.vue'
+import People from '~/components/People.vue'
 
 export default {
   components: {
@@ -39,7 +41,8 @@ export default {
     Belang,
     Doelen,
     Realiseren,
-    Probleemstelling
+    Probleemstelling,
+    People
   },
   metaInfo: {
     title: 'VR'
