@@ -5,9 +5,12 @@
     <Keywords />
     <Belang />
     <Doelen />
+    <Quote />
     <Realiseren />
     <Probleemstelling />
     <SwitchableArea />
+    <Stakeholders />
+    <Quote2 />
   </Layout>
 </template>
 
@@ -28,6 +31,10 @@ import Doelen from '~/components/Doelen.vue'
 import Realiseren from '~/components/Realiseren.vue'
 import Probleemstelling from '~/components/Probleemstelling.vue'
 import Inzichten from '~/components/Inzichten.vue'
+import Quote from '~/components/Quote.vue'
+import Stakeholders from '~/components/Stakeholders.vue'
+import Quote2 from '~/components/Quote2.vue'
+
 
 export default {
   components: {
@@ -39,7 +46,10 @@ export default {
     Belang,
     Doelen,
     Realiseren,
-    Probleemstelling
+    Probleemstelling,
+    Quote,
+    Stakeholders,
+    Quote2
   },
   metaInfo: {
     title: 'VR'

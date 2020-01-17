@@ -57,6 +57,9 @@
 .inzichten {
   height: 24rem;
 }
+.inzichten__titel{
+  color: #2553C8;
+}
 
 </style>
 
